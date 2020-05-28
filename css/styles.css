@@ -117,9 +117,9 @@ h2 {
 /* HISTORY SECTION */
 
 .history {
-  background-image: url("/img/history-bg.png");
+  background-image: url("/dist/img/history-bg.png");
   background-size: cover;
-  height: 100vh;
+  height: 80vh;
 }
 
 .history .container {
@@ -139,12 +139,11 @@ h2 {
   margin: 11em -13em;
 }
 
-.history .swiper-container {
+.swiper-container {
   background: var(--secondary-color);
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   justify-items: center;
-  margin-top: 10.5em;
   padding-top: 1.6rem;
   padding-bottom: 1rem;
 }
@@ -227,9 +226,7 @@ h2 {
 
 /* SCHEDULE SECTION */
 
-.schedule {
-  background: url("/img/Captura\ de\ Pantalla\ 2020-05-28\ a\ la\(s\)\ 3.09.30\ a.\ m..png");
-  background-size: cover;
+.schedule img {
   height: 70vh;
 }
 
@@ -237,6 +234,7 @@ h2 {
 
 .footer {
   background-color: rgba(66, 79, 107, 0.8);
+  margin-top: -10px;
 }
 
 .footer .container {
@@ -274,11 +272,33 @@ h2 {
     margin: 0 auto;
   }
 
-  .history {
-    height: 70vh;
+  .climb {
+    height: 60vh;
+  }
+  .climb .container {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
   }
 
-  .swiper-container {
+  .climb h2 {
+    font-size: 3em;
+  }
+
+  .climb h2:nth-child(2) {
+    font-size: 3em;
+    margin: 0 -20px;
+  }
+  .climb p {
+    margin: 0 auto;
+  }
+
+  .schedule {
+    overflow: hidden;
+  }
+
+  .schedule img {
+    max-width: 1000px;
   }
 
   .footer .container {

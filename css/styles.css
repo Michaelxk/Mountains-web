@@ -117,7 +117,7 @@ h2 {
 /* HISTORY SECTION */
 
 .history {
-  background-image: url("/dist/img/history-bg.png");
+  background-image: url("/img/history-bg.png");
   background-size: cover;
   height: 80vh;
 }
